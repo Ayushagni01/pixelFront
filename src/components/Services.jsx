@@ -10,7 +10,7 @@ const services = [
         features: ['Custom UI/UX Design', 'Mobile Responsive', '5 Pages Included', 'CMS Integration'],
     },
     {
-        icon: '⚡',
+        icon: '⚛️',
         color: 'linear-gradient(135deg, #06B6D4, #0891B2)',
         shadow: 'rgba(6,182,212,0.4)',
         title: 'React / Next.js Web App',
@@ -20,6 +20,36 @@ const services = [
         features: ['React / Next.js', 'API Integration', 'Auth & Dashboard', 'Deployment Included'],
     },
     {
+        icon: '☕',
+        color: 'linear-gradient(135deg, #F59E0B, #D97706)',
+        shadow: 'rgba(245,158,11,0.4)',
+        title: 'Java Backend Development',
+        text: 'Robust, enterprise-grade backend systems built with Java Spring Boot — scalable, secure, and production-ready.',
+        price: '₹50,000',
+        period: 'starting from',
+        features: ['Spring Boot APIs', 'Microservices', 'PostgreSQL / MySQL', 'JWT Auth & Security'],
+    },
+    {
+        icon: '🐍',
+        color: 'linear-gradient(135deg, #22C55E, #16A34A)',
+        shadow: 'rgba(34,197,94,0.4)',
+        title: 'Python Development',
+        text: 'From Django web apps and FastAPI backends to AI/ML integrations and data automation scripts.',
+        price: '₹35,000',
+        period: 'starting from',
+        features: ['Django / FastAPI', 'AI & ML Integration', 'Data Pipelines', 'REST & GraphQL APIs'],
+    },
+    {
+        icon: '🐳',
+        color: 'linear-gradient(135deg, #2563EB, #1D4ED8)',
+        shadow: 'rgba(37,99,235,0.4)',
+        title: 'DevOps & Docker Setup',
+        text: 'Containerise your apps, automate deployments, and set up full CI/CD pipelines on AWS, GCP, or Azure.',
+        price: '₹25,000',
+        period: 'starting from',
+        features: ['Docker & Kubernetes', 'CI/CD Pipelines', 'AWS / GCP / Azure', 'Monitoring & Alerts'],
+    },
+    {
         icon: '🛒',
         color: 'linear-gradient(135deg, #EC4899, #BE185D)',
         shadow: 'rgba(236,72,153,0.4)',
@@ -27,34 +57,34 @@ const services = [
         text: 'Feature-rich online stores with payment gateways, inventory management, and beautiful product pages.',
         price: '₹30,000',
         period: 'starting from',
-        features: ['Product Catalogue', 'Payment Gateway', 'Order Management', 'Admin Panel'],
+        features: ['Product Catalogue', 'Razorpay / Stripe', 'Order Management', 'Admin Panel'],
+    },
+    {
+        icon: '🤖',
+        color: 'linear-gradient(135deg, #8B5CF6, #6D28D9)',
+        shadow: 'rgba(139,92,246,0.4)',
+        title: 'AI / ML Integration',
+        text: 'Integrate ChatGPT, custom ML models, computer vision, or NLP into your existing product or a new one.',
+        price: '₹45,000',
+        period: 'starting from',
+        features: ['OpenAI / Gemini APIs', 'Custom ML Models', 'Chatbots & Agents', 'Python + FastAPI'],
     },
     {
         icon: '📱',
-        color: 'linear-gradient(135deg, #F59E0B, #D97706)',
-        shadow: 'rgba(245,158,11,0.4)',
-        title: 'Landing Page',
-        text: 'High-converting landing pages designed to turn visitors into customers, leads, and fans.',
-        price: '₹8,000',
+        color: 'linear-gradient(135deg, #F59E0B, #EC4899)',
+        shadow: 'rgba(245,158,11,0.35)',
+        title: 'Mobile App (React Native)',
+        text: 'Cross-platform iOS & Android apps built with React Native — one codebase, both platforms.',
+        price: '₹60,000',
         period: 'starting from',
-        features: ['1 Page Design', 'CTA Optimization', 'Fast Load Time', 'Analytics Setup'],
+        features: ['iOS & Android', 'React Native', 'Push Notifications', 'App Store Deployment'],
     },
     {
         icon: '🔧',
         color: 'linear-gradient(135deg, #84CC16, #65A30D)',
         shadow: 'rgba(132,204,22,0.35)',
-        title: 'Website Revamp',
-        text: 'Transform your outdated website into a modern, fast, and beautiful digital experience.',
-        price: '₹20,000',
-        period: 'starting from',
-        features: ['Full Redesign', 'Performance Boost', 'SEO Overhaul', 'Content Migration'],
-    },
-    {
-        icon: '🤝',
-        color: 'linear-gradient(135deg, #8B5CF6, #EC4899)',
-        shadow: 'rgba(139,92,246,0.4)',
         title: 'Monthly Maintenance',
-        text: 'Ongoing support, updates, security patches, and feature additions to keep your site running perfectly.',
+        text: 'Ongoing support, updates, security patches, and feature additions across any tech stack.',
         price: '₹3,500',
         period: '/ month',
         features: ['Bug Fixes', 'Content Updates', 'Security Patches', 'Performance Reports'],
@@ -72,12 +102,12 @@ export default function Services() {
                 <div className="services-header">
                     <div className="section-tag">💼 Our Services</div>
                     <h2 className="section-title">
-                        Everything Your Business<br />
-                        <span className="gradient-text">Needs Online</span>
+                        Full-Stack Solutions,<br />
+                        <span className="gradient-text">Any Technology</span>
                     </h2>
                     <p className="section-subtitle">
-                        From sleek landing pages to full-stack applications — we deliver premium
-                        web solutions at transparent, affordable prices.
+                        From React frontends to Java Spring Boot backends, Python AI services,
+                        Docker infrastructure, and mobile apps — we build whatever your business needs.
                     </p>
                 </div>
 

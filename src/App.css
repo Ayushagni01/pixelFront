@@ -874,7 +874,6 @@
   margin-bottom: 3rem;
 }
 
-.footer-brand {}
 
 .footer-logo {
   font-family: var(--font-heading);
@@ -1039,6 +1038,7 @@
   transition: border-color var(--t-fast), box-shadow var(--t-fast);
   outline: none;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .form-group input::placeholder,
@@ -1097,6 +1097,8 @@
 }
 
 @media (max-width: 768px) {
+
+  /* --- Navbar --- */
   .nav-links {
     display: none;
   }
@@ -1109,22 +1111,70 @@
     display: flex;
   }
 
-  .hero h1 {
-    font-size: 2.8rem;
+  /* Shrink "Get Started" button on mobile */
+  .nav-cta .btn-primary {
+    padding: 0.6rem 1.1rem;
+    font-size: 0.82rem;
   }
 
+  /* --- Hero --- */
+  /* Completely hide floating shapes — they cause horizontal overflow on mobile */
   .hero-shapes {
-    opacity: 0.3;
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 9vw, 2.8rem);
+  }
+
+  .hero-sub {
+    font-size: 0.95rem;
+  }
+
+  /* Stack buttons vertically on small screens */
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    justify-content: center;
   }
 
   .hero-stats {
-    gap: 1.5rem;
+    gap: 1.25rem;
+    flex-wrap: wrap;
   }
 
-  .portfolio-grid {
+  /* --- Services --- */
+  .services-grid {
     grid-template-columns: 1fr;
   }
 
+  /* --- Portfolio --- */
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 200px;
+  }
+
+  /* --- Testimonials --- */
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* --- Pricing --- */
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* --- Contact --- */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  /* --- Footer --- */
   .footer-top {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -1134,6 +1184,7 @@
     grid-column: span 2;
   }
 
+  /* --- Form --- */
   .form-row {
     grid-template-columns: 1fr;
   }
@@ -1141,9 +1192,20 @@
   .process-grid::before {
     display: none;
   }
+
+  /* --- CTA --- */
+  .cta-inner {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .cta-inner h2 {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 480px) {
+
+  /* --- Footer full single column --- */
   .footer-top {
     grid-template-columns: 1fr;
   }
@@ -1152,8 +1214,45 @@
     grid-column: span 1;
   }
 
+  /* --- Stats vertical --- */
   .hero-stats {
     flex-direction: column;
+    align-items: flex-start;
     gap: 1rem;
+  }
+
+  /* Reduce section padding more aggressively */
+  :root {
+    --section-pad: 3rem 1rem;
+  }
+
+  /* Container tighter padding */
+  .container {
+    padding: 0 1rem;
+  }
+
+  /* Smaller section titles */
+  .section-title {
+    font-size: clamp(1.6rem, 7vw, 2rem);
+  }
+
+  /* Smaller badges */
+  .tech-badge {
+    padding: 0.5rem 1rem;
+    font-size: 0.78rem;
+  }
+
+  /* Contact info keep readable */
+  .contact-info-item {
+    gap: 0.75rem;
+  }
+
+  /* Scroll-to-top button position */
+  #scroll-top {
+    bottom: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
   }
 }

@@ -91,6 +91,70 @@
   transition: all var(--t-fast);
 }
 
+/* ─── Language Switcher ─── */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  background: var(--clr-card);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--r-full);
+  padding: 3px;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.lang-btn {
+  padding: 0.28rem 0.7rem;
+  border-radius: var(--r-full);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--clr-muted);
+  transition: all var(--t-fast);
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: var(--font-body);
+}
+
+.lang-btn.active {
+  background: var(--grad-primary);
+  color: #fff;
+  box-shadow: 0 2px 10px rgba(124, 58, 237, 0.4);
+}
+
+.lang-btn:not(.active):hover {
+  color: var(--clr-text);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ─── Hindi Font Override ─── */
+.lang-hi,
+.lang-hi body,
+.lang-hi p,
+.lang-hi span,
+.lang-hi a,
+.lang-hi button,
+.lang-hi label,
+.lang-hi li,
+.lang-hi div {
+  font-family: 'Noto Sans Devanagari', 'Space Grotesk', sans-serif;
+}
+
+.lang-hi h1,
+.lang-hi h2,
+.lang-hi h3,
+.lang-hi h4,
+.lang-hi .section-title,
+.lang-hi .nav-logo,
+.lang-hi .hero-stat-num,
+.lang-hi .service-card-title,
+.lang-hi .price-plan-name,
+.lang-hi .price-value {
+  font-family: 'Noto Sans Devanagari', 'Outfit', sans-serif;
+}
+
 /* ==============================
    HERO
    ============================== */

@@ -10,7 +10,7 @@ const contactInfo = [
     {
         icon: '📱',
         label: 'WhatsApp',
-        value: '+91 98765 43210',
+        value: '+91 980757878X',
         sub: 'Available 9 AM – 9 PM IST',
     },
     {

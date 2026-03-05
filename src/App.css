@@ -600,8 +600,36 @@
 .tech-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
+  gap: 0.75rem;
+}
+
+/* Category layout */
+.tech-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+
+.tech-category-label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cat-color, var(--clr-violet));
+  margin-bottom: 0.9rem;
+}
+
+.tech-category-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .tech-badge {

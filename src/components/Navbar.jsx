@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-inner">
-        <div className="nav-logo">Pixel<span>Forge</span></div>
+        <div className="nav-logo">Ind<span>Forge</span></div>
 
         <ul className="nav-links">
           {navKeys.map(key => (

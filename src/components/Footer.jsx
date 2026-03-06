@@ -13,7 +13,7 @@ export default function Footer() {
                 <div className="footer-top">
                     {/* Brand */}
                     <div>
-                        <div className="footer-logo">Pixel<span>Forge</span> Studio</div>
+                        <div className="footer-logo">Ind<span>Forge</span> Studio</div>
                         <p className="footer-desc">{f.desc}</p>
                         <div className="footer-social">
                             {[{ icon: '𝕏', l: 'Twitter' }, { icon: 'in', l: 'LinkedIn' }, { icon: '📸', l: 'Instagram' }, { icon: '▶', l: 'YouTube' }, { icon: '💬', l: 'WhatsApp' }].map((s, i) => (
@@ -43,9 +43,9 @@ export default function Footer() {
                     <div className="footer-col">
                         <h4>{f.col3}</h4>
                         <div className="footer-links">
-                            <a href="mailto:hello@pixelforge.studio">hello@pixelforge.studio</a>
+                            <a href="mailto:hello@indforge.studio">hello@indforge.studio</a>
                             <a href="tel:+919876543210">+91 98765 43210</a>
-                            <a href="#contact" onClick={e => { e.preventDefault(); scrollTo('contact'); }}>pixelforge.studio</a>
+                            <a href="#contact" onClick={e => { e.preventDefault(); scrollTo('contact'); }}>indforge.studio</a>
                         </div>
                         <div style={{ marginTop: '1.25rem' }}>
                             <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: 'rgba(34,197,94,0.1)', border: '1px solid rgba(34,197,94,0.3)', borderRadius: 'var(--r-full)', padding: '0.4rem 0.8rem', fontSize: '0.75rem', color: '#22c55e', fontWeight: 600 }}>

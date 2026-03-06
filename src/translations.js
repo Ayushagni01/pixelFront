@@ -63,11 +63,11 @@ export const translations = {
         },
         testimonials: {
             tag: '💬 Testimonials', title1: 'Clients Love What', title2: 'We Build',
-            sub: "Don't just take our word for it — here's what our clients say about working with PixelForge Studio.",
+            sub: "Don't just take our word for it — here's what our clients say about working with IndForge Studio.",
         },
         cta: {
             tag: '✨ Ready to Start?', title1: 'Your Dream Website is', title2: 'One Click Away',
-            sub: 'Join 150+ happy businesses who chose PixelForge. Get a free consultation today.',
+            sub: 'Join 150+ happy businesses who chose IndForge. Get a free consultation today.',
             btn1: '🚀 Get Your Free Quote', btn2: 'View Our Work',
         },
         pricing: {
@@ -85,7 +85,7 @@ export const translations = {
             sub: 'Ready to start your project? Fill out the form or reach us directly. First consultation is always',
             subFree: '100% free', subEnd: '— no strings attached.',
             infos: [
-                { icon: '📧', label: 'Email Us', value: 'hello@pixelforge.studio', sub: 'We reply within 2 hours' },
+                { icon: '📧', label: 'Email Us', value: 'hello@indforge.studio', sub: 'We reply within 2 hours' },
                 { icon: '📱', label: 'WhatsApp', value: '+91 98765 43210', sub: 'Available 9 AM – 9 PM IST' },
                 { icon: '📍', label: 'Location', value: 'India (Remote Worldwide)', sub: 'Serving clients globally' },
             ],
@@ -122,7 +122,7 @@ export const translations = {
             serviceLinks: ['Landing Pages', 'Custom Websites', 'React Web Apps', 'E-Commerce', 'Java Backend', 'Python & AI', 'DevOps & Docker', 'Monthly Maintenance'],
             companyLinks: ['About Us', 'Portfolio', 'Process', 'Pricing', 'Blog', 'Careers'],
             available: 'Available for new projects',
-            copy: '© 2026 PixelForge Studio. Crafted with ❤️ in India.',
+            copy: '© 2026 IndForge Studio. Crafted with ❤️ in India.',
             legal: ['Privacy Policy', 'Terms of Service', 'Refund Policy'],
         },
     },
@@ -192,11 +192,11 @@ export const translations = {
         },
         testimonials: {
             tag: '💬 क्लाइंट समीक्षाएं', title1: 'क्लाइंट हमारे काम से', title2: 'प्यार करते हैं',
-            sub: 'सिर्फ हमारी बात पर नहीं — सुनिए हमारे क्लाइंट क्या कहते हैं PixelForge Studio के बारे में।',
+            sub: 'सिर्फ हमारी बात पर नहीं — सुनिए हमारे क्लाइंट क्या कहते हैं IndForge Studio के बारे में।',
         },
         cta: {
             tag: '✨ शुरू करने के लिए तैयार?', title1: 'आपकी ड्रीम वेबसाइट', title2: 'एक क्लिक दूर है',
-            sub: '150+ खुश बिज़नेसेज़ PixelForge के साथ हैं। आज फ्री कंसल्टेशन लें।',
+            sub: '150+ खुश बिज़नेसेज़ IndForge के साथ हैं। आज फ्री कंसल्टेशन लें।',
             btn1: '🚀 फ्री कोटेशन पाएं', btn2: 'हमारा काम देखें',
         },
         pricing: {
@@ -214,7 +214,7 @@ export const translations = {
             sub: 'प्रोजेक्ट शुरू करने के लिए तैयार? फॉर्म भरें या सीधे संपर्क करें। पहली सलाह हमेशा',
             subFree: '100% मुफ्त', subEnd: '— कोई शर्त नहीं।',
             infos: [
-                { icon: '📧', label: 'ईमेल करें', value: 'hello@pixelforge.studio', sub: 'हम 2 घंटे में जवाब देते हैं' },
+                { icon: '📧', label: 'ईमेल करें', value: 'hello@indforge.studio', sub: 'हम 2 घंटे में जवाब देते हैं' },
                 { icon: '📱', label: 'WhatsApp', value: '+91 98765 43210', sub: 'सुबह 9 बजे – रात 9 बजे IST' },
                 { icon: '📍', label: 'स्थान', value: 'भारत (दुनियाभर रिमोट)', sub: 'वैश्विक ग्राहकों की सेवा' },
             ],
@@ -251,7 +251,7 @@ export const translations = {
             serviceLinks: ['लैंडिंग पेज', 'कस्टम वेबसाइट', 'React वेब ऐप', 'ई-कॉमर्स', 'Java बैकएंड', 'Python & AI', 'DevOps & Docker', 'मासिक रखरखाव'],
             companyLinks: ['हमारे बारे में', 'पोर्टफोलियो', 'प्रक्रिया', 'मूल्य', 'ब्लॉग', 'करियर'],
             available: 'नए प्रोजेक्ट के लिए उपलब्ध',
-            copy: '© 2026 PixelForge Studio. भारत में ❤️ के साथ बनाया।',
+            copy: '© 2026 IndForge Studio. भारत में ❤️ के साथ बनाया।',
             legal: ['गोपनीयता नीति', 'सेवा की शर्तें', 'रिफंड नीति'],
         },
     },

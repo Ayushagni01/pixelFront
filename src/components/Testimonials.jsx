@@ -1,7 +1,7 @@
 import { useLanguage } from '../context/LanguageContext';
 
 const testimonialData = [
-    { stars: '★★★★★', text: "PixelForge completely transformed our online presence. The website they built tripled our leads in the first month. Absolutely stunning work and delivered ahead of schedule!", name: 'Rahul Sharma', role: 'CEO, TechNova Pvt Ltd', initials: 'RS', gradient: 'linear-gradient(135deg,#7C3AED,#EC4899)' },
+    { stars: '★★★★★', text: "IndForge completely transformed our online presence. The website they built tripled our leads in the first month. Absolutely stunning work and delivered ahead of schedule!", name: 'Rahul Sharma', role: 'CEO, TechNova Pvt Ltd', initials: 'RS', gradient: 'linear-gradient(135deg,#7C3AED,#EC4899)' },
     { stars: '★★★★★', text: "I was blown away by the quality and attention to detail. They understood our brand instantly and delivered a masterpiece. The whole team is super professional and responsive.", name: 'Priya Patel', role: 'Founder, Bloom Beauty', initials: 'PP', gradient: 'linear-gradient(135deg,#EC4899,#F59E0B)' },
     { stars: '★★★★★', text: "Best web development experience I've ever had. From discovery call to launch in just 3 weeks. The team is extraordinary — they turned our vision into reality perfectly.", name: 'Arjun Mehta', role: 'Director, Skyline Realty', initials: 'AM', gradient: 'linear-gradient(135deg,#06B6D4,#7C3AED)' },
     { stars: '★★★★★', text: "Our e-commerce revenue doubled after the revamp. They handled everything — design, development, Razorpay integration, even SEO. Truly a one-stop shop for web excellence.", name: 'Sneha Gupta', role: 'Owner, StyleHub India', initials: 'SG', gradient: 'linear-gradient(135deg,#22C55E,#06B6D4)' },
@@ -30,7 +30,6 @@ export default function Testimonials() {
                                 <div className="author-avatar" style={{ background: t.gradient }}>{t.initials}</div>
                                 <div>
                                     <div className="author-name">{t.name}</div>
-                                    <div className="author-role">{t.role}</div>
                                 </div>
                             </div>
                         </div>
